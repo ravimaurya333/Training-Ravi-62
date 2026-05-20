@@ -1,0 +1,40 @@
+Git->It is a version control system
+    It is used to go backward or forward in code version
+    It tracks who changed the code,what changed,when changed,why changed
+
+    Types of VCS->
+        1>Local VCS->data stored in single system
+            sccs->sourse control code system
+            rcs->Revision control  system
+
+        2>Centralized VCS-> a center server exists
+            cvs->component version system was first centralized VCS
+        3>Distributed VCS->data exists in many system
+
+    Git vs other VCS:
+        other VCS stores diffrences of version=delta1
+        Git stores snapshot(copy of code) 
+        Git uses hashing,object storage,compression,deduplication
+
+    Git has three states:
+        1>working directory
+        2>staging Area
+        3>Git repository
+    
+    Git Vs Github
+        Git: it is a VCS
+             it is a type of software
+            work locally on computer
+            track changes and manage version
+            No need of internet works offline
+            developed by linus torvalds
+            came on 2005
+
+        Github: Cloud based hosting plateform
+                website/plateform
+                Works online on internet
+                Store git repo online & enable collaboration
+                It needs internet
+                develop by github community
+                came on 2008
+

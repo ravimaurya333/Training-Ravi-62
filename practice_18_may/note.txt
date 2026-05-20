@@ -1,0 +1,13 @@
+boilerplace code-> it informs browser that we are writing its code
+meta text->extra information
+semantic tags->it is seo friendly
+for redirecting -> fa fa-phone
+for getting items in one line and making space b/w them->
+        <div style="display: flex; justify-content: space-evenly;">
+            <p>+91 8469775272</p>
+            <p>Vadodara, Gujarat</p>
+            <p>ravi882353@outlook.com</p>
+        </div>
+
+
+

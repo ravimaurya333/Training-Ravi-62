@@ -1,0 +1,18 @@
+database-> a system to manage data
+   nosql->data stored in key value pair
+   sql->data stored in row column format
+
+
+tables->
+    caption->used to give info
+   table
+    thead
+    tbody
+    tfoot
+    th
+    tr
+    td
+
+
+project->job application form
+
