@@ -1,0 +1,11 @@
+Git->
+	git --version->know ur version
+	git init->Initialize a repo
+	git status->track status of files
+	git add->add file to repo (staging area)
+	git commit -m "your msg" ->commit the file changes
+	git log->get the history of your commits
+	git checkout id-> go to previous or new version 
+	git branch->get the branch
+	git switch user->switch the branch
+	

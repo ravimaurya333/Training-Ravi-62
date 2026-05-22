@@ -1,0 +1,5 @@
+git command for branches
+    git merge %branch name%  ->  it will merge master branch with any other branch
+    git reset->stage to unstage
+    git reset --hard  -> with history files data is reseted
+    git reset %id%  -> reset any version
