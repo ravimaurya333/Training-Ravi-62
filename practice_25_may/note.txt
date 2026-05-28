@@ -1,0 +1,16 @@
+css->
+    1.inline
+    2.internal
+    3.external
+
+layout->
+    flex->change layout in 1d
+    grid->for 2d
+    position->it is in freeflow state
+    
+selector->
+    selector{
+        property-value
+        }
+    for id- use #
+    

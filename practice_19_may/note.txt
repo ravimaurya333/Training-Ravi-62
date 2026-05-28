@@ -30,8 +30,8 @@ Git->It is a version control system
             developed by linus torvalds
             came on 2005
 
-        Github: Cloud based hosting plateform
-                website/plateform
+        Github: Cloud based hosting platform
+                website/platform
                 Works online on internet
                 Store git repo online & enable collaboration
                 It needs internet

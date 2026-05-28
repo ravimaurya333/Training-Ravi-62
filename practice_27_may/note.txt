@@ -1,0 +1,17 @@
+display->
+    block property->
+        ew& eh
+        new line
+        height and width
+        margin and padding
+        ex-div,p,h1-h6
+
+    inline->
+        content width
+        content height
+        start at same line
+        we cannot apply height and width
+        we cannot apply top&bottom margin(left&right can be applied)
+        ex-span,a,img
+
+    inline-block->

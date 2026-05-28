@@ -1,0 +1,19 @@
+box-model->
+    content->
+    border->it separate boxes
+    padding->space inside border
+    margin->gap b/w two boxes
+color->
+    name,rgb,hex,hsl(hue,saturation,light)
+
+units->
+    px
+    em
+    rem
+    %
+
+box sizing->
+    content box->only include content for size
+    border box->it include the size in border
+
+em vs rem

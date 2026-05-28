@@ -1,0 +1,19 @@
+h1{
+    color: cadetblue;
+}
+p{
+    font-weight: normal;
+    /* font-size: x-large */
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: cadetblue;
+    text-decoration: overline;
+}
+a{
+    text-decoration: none;
+    
+}
+.info{
+    color: chocolate;
+
+}

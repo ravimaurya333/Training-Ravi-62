@@ -1,0 +1,17 @@
+git stash-> 
+    if you don't want to commit then you can store your it in git stash(a temporary storage)
+
+git stash pop->
+    get the stash version back
+
+git restore filename->
+    Go to last commit
+
+git restore --staged filename ->
+    unstage a staged file
+
+git reset --soft HEAD~1->
+    go to last commit but files remain unchanged
+
+git reset --hard HEAD~1->
+    go to last commit and files will also change
