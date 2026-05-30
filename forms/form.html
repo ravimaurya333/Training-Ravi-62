@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- heading -->
+    <header>
+        <h1 style="text-align: center;">Student Registration Form</h1>
+    </header>
+    <!-- our form -->
+    <section>
+        <form >
+            <!-- Personal Information -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="name" >Full Name:</label>
+                <input id="name" type="text" required>
+                <br> hr
+
+                <label >
+                    Email:
+                    <input type="email" placeholder="abc@example.com" required>
+                </label>
+                <br>
+
+                <label >
+                    Password:
+                    <input type="password"  placeholder="********" required>
+                </label>
+                <br>
+
+                <label for="contact">
+                    Phone Number:
+                </label>
+                <input type="tel" id="contact" required>
+                <br>
+
+                <label for="dob">
+                    DOB:
+                </label>
+                <input type="date" id="dob" required>
+
+            </fieldset>
+
+            <br>
+            <!-- Gender Information -->
+             <fieldset>
+                <legend>Gender Information</legend>
+
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <br>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <br>
+                <label for="others">Others</label>
+                <input type="radio" name="gender" id="others">
+                <br>
+             </fieldset>
+
+             <!-- Course Information -->
+            <fieldset>
+                <legend>Course Information</legend>
+                <label for="course">Course:</label>
+                <select name="course" id="course">
+                    <option >MERN</option>
+                    <option >AI</option>
+                    <option >DSA</option>
+                </select>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer></footer>
+</body>
+</html>

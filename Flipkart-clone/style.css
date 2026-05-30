@@ -1,0 +1,86 @@
+*{
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: inline-block;
+    background-color: yellow;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 10px;
+}
+.travel{
+    display: inline-block;
+    background-color: #e2e2e2;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 10px;
+}
+.location{
+    display: inline-block;
+    margin-left: 70%;
+    font-size: 16px;
+
+    font-weight: 600;
+}
+.middle input{
+    width: 80%;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid dodgerblue;
+}
+.bottom .box{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hero div{
+    display: inline-block;
+    /* width: 350px;
+    height: 200px; */
+}
+.hero img{
+    width: 400px;
+    height: auto;
+}
+.recommendation{
+    background-color: yellowgreen;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.recommendation .item{
+    background-color: white;
+    border-radius: 15px;
+
+}
+.description,.about,.help{
+    display: inline-block;
+    margin-left: 15%;
+    
+    vertical-align: top;
+}
+.description{
+    margin-top:50px;
+}
+.footer{
+    background-color: black;
+    /* display: inline-block; */
+    color: white;
+    width: 100%;
+    margin: 0px;
+}
+.copy{
+    color: gray;
+}

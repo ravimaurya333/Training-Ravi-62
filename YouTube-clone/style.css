@@ -1,0 +1,84 @@
+*{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+.head-top{
+    /* border: 5px solid wheat; */
+    padding: 5px;
+    width: 90%;
+    display: inline-block;
+    margin: 10px;
+
+}
+.logo{
+    display: inline-block;
+}
+.logo h2{
+    display: inline-block;
+    margin: auto;
+}
+.search{
+    display: inline-block;
+    
+}
+.search input{
+    display: inline-block;
+    border-radius: 10px;
+    margin-left: 200px;
+    border: 2px solid white;
+    outline: none;
+    width: 300px;
+    vertical-align: middle;
+    height: 20px;
+}
+.profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 400px;
+    background: url(https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.logo sup{
+    font-size: small;
+}
+.head-bottom{
+    margin: 10px;
+}
+.head-bottom .button{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(50, 47, 47, 0.657);
+}
+
+.hero .videos{
+    display: inline-flex;
+    margin-top: 50px;
+    width: 90%;
+    
+}
+.hero .videos2{
+    display: inline-flex;
+    margin-top: 50px;
+    width: 90%;
+}
+.hero .videos3{
+    display: inline-flex;
+    margin-top: 50px;
+    width: 90%;
+}
+iframe{
+    width: 450px;
+    height: 250px;
+    margin: 20px;
+}
