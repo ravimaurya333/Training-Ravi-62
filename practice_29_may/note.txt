@@ -1,0 +1,6 @@
+position in css->
+    static->It is bydefault.HTML automatically adjust it 
+    Relative->Seat will be reserved no one will take it
+    Absolute->space will be available for other elements.other element can occupy it.means other elements will be overlaped by it
+    fixed->position will be fixed if you go down or up on your screen but the element will be fixed to the screen
+    sticky->it will not go outside of the parent class.

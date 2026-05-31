@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        :root{
+            --pr-color: #eee;
+            --heading-color:gray;
+            --box-bg-color:#fff;
+            --box-1-color:purple;
+            --box-2-color:yellow;
+            --box-3-color:green;
+        }
+        .parent{
+            /* width: 100%; */
+            height: 1000px;
+            
+            padding: 30px;
+            text-align: center;
+            background-color: var(--pr-color);
+        }
+        .box{
+            width: 420px;
+            border: 2px solid black;
+            margin: 50px;
+            margin-left: 450px;
+            background-color: var(--box-bg-color);
+        }
+        h1{
+            color: var(--heading-color);
+        }
+        .box .box1{
+            padding: 10px;
+
+            
+        }
+        .box1 h3{
+            background-color: var(--box-1-color);
+        }
+        .box .box2{
+            padding: 10px;
+        }
+        .box2 h3{
+            background-color: var(--box-2-color);
+        }
+        .box .box3{
+            padding: 10px;
+        }
+        .box3 h3{
+            background-color: var(--box-3-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>Menu card</h1>
+        <div class="box box1">
+            <h3>Cold Drink</h3>
+            <p>A soft drink is a class of beverage containing no alcohol, usually carbonated, and typically including added sweetener. Flavors can be natural, artificial or a mixture of the two. The sweetener may be a sugar, high-fructose corn syrup, fruit juice, a sugar substitute, or some combination of these.</p>
+        </div>
+        <div class="box box2">
+            <h3>pizza</h3>
+            <p>Pizza is an Italian dish typically consisting of a flat base of leavened wheat-based dough topped with tomato, cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired oven.</p>
+            
+        </div>
+        <div class="box box3">
+            <h3>Burger</h3>
+            <p>Hamburger, a food consisting of one or more cooked meat patties, often beef, placed inside a sliced bread roll or bun roll</p>
+        </div>
+    </div>
+</body>
+</html>
