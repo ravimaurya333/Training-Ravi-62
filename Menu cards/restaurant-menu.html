@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent Menu card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            text-align: center;
+            height: 700px;
+            color: #f2f2f2;
+            background-color: #423E3B;
+            /* column-gap: 420px; */
+        }
+        
+        h1{
+            width: 100%;
+            
+        }
+        .card h2{
+            margin-bottom: 5px;;
+            
+        }
+        .card{
+            background-color: #1e1e1e;
+            border: 2px solid black;
+            width: 190px;
+            height: 200px;
+            /* padding: 10px; */
+
+        }
+        ul{
+            text-align: start;
+            
+        }
+        li{
+            padding: 3px;
+            list-style-type: none;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <!-- head  -->
+     <div class="container">
+         <h1>Restaurent Menu</h1>
+        <div class="card" id="card1">
+            <h2>Drinks</h2>
+            <ul>
+                <li>Coca-cola</li>
+                <li>Diet-Coke</li>
+                <li>Maaza</li>
+                <li>Sprite</li>
+                <li>Yogurt</li>
+                <li>ButterMilk</li>
+            </ul>
+        </div>
+        <div class="card" id="card2">
+            <h2>Snacks</h2>
+            <ul>
+                <li>Puff</li>
+                <li>Onion pakoda</li>
+                <li>Maggie</li>
+                <li>Noodel</li>
+                <li>Manchurian</li>
+                <li>Soup</li>
+            </ul>
+            
+        </div>
+        <div class="card" id="card3">
+            <h2>Tea</h2>
+            <ul>
+                <li>Milk Tea</li>
+                <li>Black-Tea</li>
+                <li>Green-Tea</li>
+                <li>Herbal Tea</li>
+            </ul>
+
+        </div>
+     </div>
+
+</body>
+</html>
