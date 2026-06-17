@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box ;
+}
+.main{
+    display: flex;
+    border: 2px solid black;
+    padding: 0.2rem;
+    /* flex-wrap: wrap; */
+    gap: 0.5rem;
+    /* flex-flow:wrap row; */
+    /* flex-flow:wrap column-reverse; */
+    /* flex-flow: wrap row; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid black;
+}
