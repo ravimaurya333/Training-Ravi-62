@@ -18,13 +18,17 @@
             background-color: beige;
         }
         #photo{
-            background: url(profile_pic.png) no-repeat;
-            background-size: 100% 100%;
+            /* background: url(profile_pic.png) no-repeat;
+            background-size: 100% 100%; */
+            overflow: hidden;
             margin: auto;
             width: 100px;
             height: 100px;
             border: 3px solid black;
             border-radius: 50%;
+        }
+        #imgg{
+            /* overflow: hidden; */
         }
         p{
            font-weight: bold;
@@ -46,17 +50,33 @@
 <body>
     <div class="profile-card">
         <h1>Profile Card</h1>
-        <div id="photo">
-
+        <div id="photo">    
+            <img  id="imgg" src="./profile_pic.png" alt="" width="100px">
         </div>
         <div id="info">
             <h3>BTech CSE</h3>
-            <p>Name-Ravi Maurya</p>
-            <p>Batch-8</p>
-            <p>Roll No-62</p>
+            <p id="name">Name-Ravi Maurya</p>
+            <p id="batch">Batch-8</p>
+            <p id="rl">Roll No-62</p>
 
             <a href="https://www.linkedin.com/in/ravimaurya24/" target="_blank">FOLLOW</a>
+            <button id="change"  href="" onclick="{changeBtn()}">Change</button>
         </div>
     </div>
+
+
+
+    <script>
+        let a=document.getElementById("imgg")
+        let Name=document.getElementById("name")
+        let Batch=document.getElementById("batch")
+        let Rl=document.getElementById("rl")
+        function changeBtn(){
+            a.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz3XbgqPWjpcGeuSXJJq-pOo7acTbDktc7FYvWsLVSUeu3FVFMOxUdOvcj&s=10")
+            Name.innerHTML="Name-Alex"
+            Batch.innerHTML="Batch-10"
+            Rl.innerHTML="Roll No-23"
+        }
+    </script>
 </body>
 </html>
