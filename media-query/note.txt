@@ -1,0 +1,15 @@
+media query is a technique in  css which helps in making our website responsive.
+
+ex->
+    @media(condition){
+        max-width:
+        min-width:
+    }
+
+
+basic standard:
+    mobile: 0 to 576px
+    tablet:576px to 768px
+    laptop:769px to 1024px
+    desktop:1025px to 1200px
+    large-screen:1200px

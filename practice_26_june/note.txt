@@ -1,0 +1,17 @@
+pseudo-classes
+    interactive pseudo classes:
+        :hover
+        :link
+        :visited
+        :active
+        :focus
+
+    structured pseudo classes:
+        first-child
+        last-chi:
+        nth-child(n)
+
+pseudo-elements
+    ::before
+    ::after
+    ::selection 

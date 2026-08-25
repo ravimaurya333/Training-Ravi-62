@@ -1,0 +1,27 @@
+properties of display:
+    display:grid;
+        display:inline-grid;  //make the block inline
+        grid-template-column:size;  //size the column will take
+        grid-template-columns:repeat(3,1fr);  
+        grid-template-rows:repeat(3,100px) ;  //it will increase rows size
+        row gap,column gap,gap
+        justify-content:start or end or center;
+        align-content:center or start or end or space-between; 
+        align-items:grid will acts as a grp it moves around vertical line
+        grid-auto-rows  //set height of rows 
+
+
+
+
+child properties of grid:
+        justify-self: start;
+        align-self: start;
+        row-start:1
+        column-start:1
+        row-end:1
+        column-end:1
+
+        grid-column:cs/ce;
+        grid-row:rs/re;
+        grid-area:rs/cs/re/ce;
+

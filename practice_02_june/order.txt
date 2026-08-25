@@ -1,0 +1,11 @@
+align-self->
+    it apply to individual item.
+    
+hw->
+    restaurant menu:
+        drinks:    snacks:
+        Tea:        
+    bg-color:#1e1e1e
+    text-color:#f2f2f2
+
+v

@@ -1,0 +1,29 @@
+flexbox->
+    it works in a 1D-dimention.
+    flex container->where you apply flex property.
+    flex item->items inside the flex container.
+
+    flex-direction:row;->Bydefault property
+    flex-direction:column;->items will arrange in vertical order.
+
+    it has 2 axis:
+        main axis
+        cross axis
+
+    when flex-direction:row
+            main axis:Horizontal
+            cross axis:vertical
+    
+    when flex-direction:col
+            main axis:vertical
+            cross axis:Horizontal
+    
+    justify-content:main axis property
+    align-item and align content:cross axis property
+
+        justify-content:flex-start;  //Bydefault
+
+    align-item:center //move using cross axis
+
+    flex-wrap:wrap;  
+    flex-flow:f.d. fw;

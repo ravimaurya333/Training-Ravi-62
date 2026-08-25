@@ -1,0 +1,7 @@
+transform property:
+    transform:scale( scaleX()   scaleY( )  )    // its size increases default value 1
+                    translate()  //move the box
+                    rotate()
+                    skew()
+
+    transition:transform 0.4s ease

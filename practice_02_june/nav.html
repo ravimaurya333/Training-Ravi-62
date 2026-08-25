@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* background-color: wheat; */
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            border: 2px solid black;
+            background-color: #006E90;
+            position: fixed;
+            width: 100%;
+            padding: 3px;
+            
+        }
+        .container a{
+            /* display: flex; */
+            text-decoration: none;
+            color: white;
+            
+        }
+        .msg {
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+            background-color: #99C24D;
+        }
+        .chatbox{
+            position: relative;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            width: 5px;
+            height: auto;
+            
+
+        }
+        #chat{
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+       <div class="container">
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Explore</a>
+        <a href="#">search</a>
+
+       </div>
+    </nav>
+    <section>
+        <div class="msg">
+            <h1>Welcome to Our Website</h1>
+            <span>These are the descriptions</span>
+        </div>
+        <div class="chatbox">
+            <p id="chat">💬</p>
+            
+        </div>
+    </section>
+</body>
+</html>
